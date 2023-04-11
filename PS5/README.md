@@ -1,3 +1,10 @@
+
+Guide: Liam
+
+
+
+
+
 ## Problem Set 5: Estimating kinetic parameters from experimental data
 
 We have an enzyme catalyzed reaction whose rate of reaction $v$ follows [Michaelis–Menten kinetics](https://en.wikipedia.org/wiki/Michaelis–Menten_kinetics):
