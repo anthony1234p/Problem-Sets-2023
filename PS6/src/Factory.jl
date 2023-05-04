@@ -73,7 +73,12 @@ function _build_bounds_array(data::Dict{String,Any})::Array{Float64,2}
     # bounds is going to be a number of reactions by 2
     
     for i in 1:number_of_reactions
-        reaction = list_of
+        reaction = list_of_reactions[i]
+        L = reaction["lower_bound"]
+        U = reaction["upper_bound"]
+        bounds_array[i,1] = L
+        bounds_array[i,2] = U
+    end
 
 
     #each row is a reaction
